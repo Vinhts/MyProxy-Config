@@ -1,0 +1,191 @@
+# Shadowrocket: 2026-07-29 15:30:08
+[General]
+# hijack-dns = 8.8.8.8:53,1.1.1.1:53
+hijack-dns = true
+bypass-system = true
+#skip-proxy = 192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,localhost,*.local
+#tun-excluded-routes = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 192.168.0.0/16
+dns-server = system, 1.1.1.1, 8.8.8.8, 1.0.0.1
+encrypted-dns-server = https://dns.google/dns-query
+ipv6 = false
+prefer-ipv6 = false
+private-ip-answer = true
+dns-direct = true
+dns-failover = true
+dns-cache = true
+dns-cache-size = 1024
+dns-failover-timeout = 2
+
+[Proxy Group]
+Proxy = select,SURFSHARK-SG,PROTONVPN-SG3,SURFSHARK-HK,policy-select-name=SURFSHARK-SG
+
+# Nhóm chuyên dụng cho YouTube đi qua Albania
+YouTube-NoAds = select, Surfshark-AL
+
+[Rule]
+
+# --- 1. LOCAL & PRIVATE NETWORK ---
+RULE-SET,SYSTEM,DIRECT
+DOMAIN-SUFFIX,local,DIRECT
+IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+
+# --- 2. CHẶN TRAFFIC QUIC (ÉP HẠ CẤP VỀ TCP ĐỂ LỌC ADS/PROXY) ---
+# AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT
+
+# --- 3. TIẾN TRÌNH/ APP ĐẶC BIỆT va NGÂN HÀNG  ĐI THẲNG (DIRECT) ---
+
+DOMAIN-KEYWORD,miwifi,DIRECT
+
+# Cake by VPBank
+DOMAIN-SUFFIX,cake.vn,DIRECT
+# Vietcombank
+DOMAIN-SUFFIX,vietcombank.com.vn,DIRECT
+DOMAIN-SUFFIX,vcb.com.vn,DIRECT
+# Techcombank
+DOMAIN-SUFFIX,techcombank.com.vn,DIRECT
+DOMAIN-SUFFIX,tcb.com.vn,DIRECT
+DOMAIN-SUFFIX,techcombank.com,DIRECT
+# Các cổng thanh toán nội địa thường đi kèm
+DOMAIN-SUFFIX,napas.com.vn,DIRECT
+DOMAIN-SUFFIX,vnpay.vn,DIRECT
+DOMAIN-SUFFIX,momo.vn,DIRECT
+
+# airline
+DOMAIN-SUFFIX,vietjetair.com,DIRECT
+
+# Unread rss
+DOMAIN-SUFFIX,goldenhillsoftware.com,DIRECT
+
+
+# Tối ưu hóa cho VTVgo không bị đi vòng qua Proxy
+DOMAIN-KEYWORD,vtvgo,DIRECT
+DOMAIN-SUFFIX,vtv.vn,DIRECT
+DOMAIN-SUFFIX,vtvgo.vn,DIRECT
+DOMAIN-KEYWORD,vtvdigital,DIRECT
+
+
+# 4- Block Ads mạnh
+RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-surge-rule.conf,REJECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-surge-exceptions-rule.conf,DIRECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,REJECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list,REJECT,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,REJECT,update-interval=86400
+# Rule chặn quảng cáo phải nằm TRÊN TRƯỚC các rule điều hướng quốc tế/Việt Nam
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/exceptions.txt,DIRECT,update-interval=86400
+
+# --- 5. CÁC TỪ KHÓA CHẶN THỦ CÔNG NÂNG CAO KHÁC ---
+DOMAIN-KEYWORD,adserver,REJECT
+DOMAIN-KEYWORD,adnetwork,REJECT
+DOMAIN-KEYWORD,analytics,REJECT
+DOMAIN-KEYWORD,tracking,REJECT
+DOMAIN-KEYWORD,telemetry,REJECT
+DOMAIN-KEYWORD,posthog,REJECT
+DOMAIN-KEYWORD,klaviyo,REJECT
+DOMAIN-KEYWORD,skimresources,REJECT
+DOMAIN-KEYWORD,optimizely,REJECT
+DOMAIN-KEYWORD,impact.com,REJECT
+DOMAIN-KEYWORD,yandex,REJECT
+DOMAIN-KEYWORD,oppomobile,REJECT
+DOMAIN-KEYWORD,myhuaweicloud,REJECT
+DOMAIN-KEYWORD,his.huawei.com,REJECT
+DOMAIN-KEYWORD,samsungdm,REJECT
+DOMAIN-KEYWORD,atlas.samsung.com,REJECT
+DOMAIN-KEYWORD,dqa.samsung.com,REJECT
+DOMAIN-KEYWORD,uca.cloud.unity3d.com,REJECT
+
+# --- 6. DANH SÁCH CHẶN THỦ CÔNG CÒN LẠI TỪ CÁC BƯỚC TRƯỚC ---
+DOMAIN-SUFFIX,byteoversea.com,REJECT
+DOMAIN-SUFFIX,realme.com,REJECT
+#DOMAIN-SUFFIX,xiaomi.com,REJECT
+DOMAIN-SUFFIX,hicloud.com,REJECT
+DOMAIN-SUFFIX,cookielaw.org,REJECT
+DOMAIN-SUFFIX,trustarc.com,REJECT
+DOMAIN-SUFFIX,dynamicyield.com,REJECT
+DOMAIN-SUFFIX,rudderstack.com,REJECT
+DOMAIN-SUFFIX,fingerprintjs.com,REJECT
+DOMAIN-SUFFIX,launchdarkly.com,REJECT
+DOMAIN-SUFFIX,mailchimp.com,REJECT
+DOMAIN-SUFFIX,onesignal.com,REJECT
+DOMAIN-SUFFIX,pangleglobal.com,REJECT
+DOMAIN-SUFFIX,jwpcdn.com,REJECT
+DOMAIN-SUFFIX,jwpsrv.com,REJECT
+DOMAIN,ads.x.com,REJECT
+DOMAIN,log.tiktokv.com,REJECT
+DOMAIN,rtb-trk4.linkedin.com,REJECT
+DOMAIN,rtb-us-east.linkedin.com,REJECT
+DOMAIN,conversions-config.reddit.com,REJECT
+DOMAIN,widgets.pinterest.com,REJECT
+DOMAIN,pixel.quora.com,REJECT
+DOMAIN,qevents.quora.com,REJECT
+DOMAIN,ads.vk.com,REJECT
+DOMAIN,ads.microsoft.com,REJECT
+DOMAIN,udcm.yahoo.com,REJECT
+DOMAIN,am.yahoo.co.jp,REJECT
+DOMAIN,apm.yahoo.co.jp,REJECT
+DOMAIN,b91.yahoo.co.jp,REJECT
+DOMAIN,b99.yahoo.co.jp,REJECT
+DOMAIN,webc2s.pubgw.yahoo.com,REJECT
+DOMAIN,pls.prd.mz.internal.unity3d.com,REJECT
+DOMAIN,auth.be.sec.miui.com,REJECT
+DOMAIN,apaff.oneplus.com,REJECT
+DOMAIN,ngfts.lge.com,REJECT
+DOMAIN,ads.roku.com,REJECT
+DOMAIN,mads-eu.amazon.com,REJECT
+DOMAIN,sia.internet.apps.samsung.com,REJECT
+DOMAIN,cdn.privacy-mgmt.com,REJECT
+DOMAIN,is.com,REJECT
+DOMAIN,bnc.lt,REJECT
+DOMAIN,ads.youtube.com,REJECT
+#DOMAIN,s.youtube.com,REJECT
+DOMAIN,redirector.googlevideo.com,REJECT
+#DOMAIN,youtubei.googleapis.com,REJECT
+DOMAIN,dai.google.com,REJECT
+DOMAIN,tagmanager.google.com,REJECT
+
+# --- 7. NHÓM BUCKET AMAZON AWS S3 (CHỈ CHẶN ĐÍCH DANH BUCKET RÁC) ---
+DOMAIN,advice-ads.s3.amazonaws.com,REJECT
+DOMAIN,alphaupsell.s3.ap-northeast-2.amazonaws.com,REJECT
+DOMAIN,alexa-hybrid-interaction-log-config-prod-na.s3.amazonaws.com,REJECT
+DOMAIN,biowebb-data.s3.amazonaws.com,REJECT
+DOMAIN,cdj-dap.s3-ap-northeast-1.amazonaws.com,REJECT
+DOMAIN,connectio.s3.amazonaws.com,REJECT
+DOMAIN,d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com,REJECT
+DOMAIN,dackpartner-web.s3.amazonaws.com,REJECT
+DOMAIN,master-shopify-tracker.s3.amazonaws.com,REJECT
+DOMAIN,pushd-android-logs.s3.amazonaws.com,REJECT
+DOMAIN,seedapp-creative.s3.amazonaws.com,REJECT
+DOMAIN,tempo-client-metric-prod.s3.amazonaws.com,REJECT
+DOMAIN,um-public-panel-prod.s3.amazonaws.com,REJECT
+DOMAIN,yieldmo-builds.s3.amazonaws.com,REJECT
+DOMAIN,m6ulblxep4.execute-api.us-east-1.amazonaws.com,REJECT
+DOMAIN,hm2wjuuus3.execute-api.ap-northeast-1.amazonaws.com,REJECT
+DOMAIN,wphlvzycf5.execute-api.eu-west-2.amazonaws.com,REJECT
+
+# --- 8. ĐỊNH TUYẾN QUỐC GIA (DIRECT VIỆT NAM) ---
+DOMAIN-SUFFIX,vn,DIRECT
+GEOIP,VN,DIRECT
+
+# --- 9. ĐỊNH TUYẾN DỊCH VỤ QUỐC TẾ QUA PROXY ---
+DOMAIN-KEYWORD,google,PROXY
+DOMAIN-KEYWORD,facebook,PROXY
+DOMAIN-KEYWORD,instagram,PROXY
+#DOMAIN-KEYWORD,youtube,PROXY
+DOMAIN-KEYWORD,netflix,PROXY
+DOMAIN-KEYWORD,surfshark,PROXY
+FINAL,PROXY
+
+[Host]
+*.local = server:syslib
+# === CHẶN DNS QUẢNG CÁO ===
+*.vnads.vn = 127.0.0.1
+*.vpad.vn = 127.0.0.1
+*.admicro.vn = 127.0.0.1
+*.ads.vn = 127.0.0.1
+*.adx.vn = 127.0.0.1
+
+[MITM]
+enable = false
