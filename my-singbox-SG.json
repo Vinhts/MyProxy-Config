@@ -1,8 +1,56 @@
 {
   "version": 1,
-  "updated_at": "2026-09-09T06:30:02Z",
+  "updated_at": "2026-09-09T17:00:01Z",
   "count": 15,
   "outbounds": [
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "54.151.142.26",
+      "server_port": 443,
+      "tag": "hysteria2-1060574030",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "google.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "47.129.0.20",
+      "server_port": 443,
+      "tag": "hysteria2-1060574002",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "whatsapp.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "13.212.76.106",
+      "server_port": 443,
+      "tag": "hysteria2-1169638509",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.bing.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "13.212.32.171",
+      "server_port": 443,
+      "tag": "hysteria2-651117976",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vpn-sg-001.fastervpn.world"
+      },
+      "type": "hysteria2"
+    },
     {
       "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
       "server": "54.151.142.26",
@@ -19,103 +67,13 @@
       "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
       "server": "54.151.142.26",
       "server_port": 443,
-      "tag": "hysteria2-1169638647",
+      "tag": "hysteria2-1180048411",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "www.bing.com"
+        "server_name": "54.151.142.26"
       },
       "type": "hysteria2"
-    },
-    {
-      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "47.129.189.148",
-      "server_port": 443,
-      "tag": "hysteria2-855401605",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "vpn-sg-001.fastervpn.world"
-      },
-      "type": "hysteria2"
-    },
-    {
-      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "54.151.142.26",
-      "server_port": 443,
-      "tag": "hysteria2-1046909563",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "css.rbxcdn.com"
-      },
-      "type": "hysteria2"
-    },
-    {
-      "flow": "xtls-rprx-vision",
-      "server": "54.251.224.5",
-      "server_port": 26017,
-      "tag": "vless-1058029032",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "cy4ePzAdSz4pqRmAXXchMIgSoSKo8qjq2qLk5805LRA",
-          "short_id": "af1c2e33b0c7dad7"
-        },
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "type": "vless",
-      "uuid": "d318cdac-0033-4b6e-98bf-35116e79c93f"
-    },
-    {
-      "flow": "xtls-rprx-vision",
-      "server": "52.77.240.16",
-      "server_port": 15562,
-      "tag": "vless-1164626080",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "TzY8IrCzcw3jLJa9tiYLbvHb0h7L6MSZXl6JsqkDCxw",
-          "short_id": "5ba824948be6"
-        },
-        "server_name": "www.tesla.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "type": "vless",
-      "uuid": "302debe4-0cc7-48d1-9433-3242dbb6730a"
-    },
-    {
-      "flow": "xtls-rprx-vision",
-      "server": "54.151.153.129",
-      "server_port": 59180,
-      "tag": "vless-1199572824",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "NntGU23khU2ASY2g1XM5_Vl0G39MyoXre5q7vanorDM",
-          "short_id": "3ced8a51ce74468c"
-        },
-        "server_name": "www.tesla.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "type": "vless",
-      "uuid": "44aedcca-28f8-411d-bed2-9bd6aa491cb5"
     },
     {
       "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
@@ -155,9 +113,33 @@
     },
     {
       "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "13.212.76.106",
+      "server": "13.250.120.9",
       "server_port": 443,
-      "tag": "hysteria2-856461969",
+      "tag": "hysteria2-918221068",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "vk.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "54.151.142.26",
+      "server_port": 443,
+      "tag": "hysteria2-1046909543",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "speedtest.tinkoff.ru"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "47.129.189.148",
+      "server_port": 443,
+      "tag": "hysteria2-855401605",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -169,23 +151,11 @@
       "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
       "server": "13.212.76.106",
       "server_port": 443,
-      "tag": "hysteria2-1046909555",
+      "tag": "hysteria2-856461969",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "speedtest.tinkoff.ru"
-      },
-      "type": "hysteria2"
-    },
-    {
-      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "47.129.0.20",
-      "server_port": 443,
-      "tag": "hysteria2-1046909532",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "css.rbxcdn.com"
+        "server_name": "vpn-sg-001.fastervpn.world"
       },
       "type": "hysteria2"
     },
@@ -203,13 +173,13 @@
     },
     {
       "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "13.212.76.106",
+      "server": "47.129.0.20",
       "server_port": 443,
-      "tag": "hysteria2-1107070563",
+      "tag": "hysteria2-1046909532",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "13.212.76.106"
+        "server_name": "css.rbxcdn.com"
       },
       "type": "hysteria2"
     }
