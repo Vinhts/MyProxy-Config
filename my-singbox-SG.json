@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-09T04:45:17Z",
+  "updated_at": "2026-09-09T05:42:28Z",
   "count": 15,
   "outbounds": [
     {
@@ -211,28 +211,6 @@
     },
     {
       "flow": "xtls-rprx-vision",
-      "server": "54.251.224.5",
-      "server_port": 26017,
-      "tag": "vless-1162261096",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "cy4ePzAdSz4pqRmAXXchMIgSoSKo8qjq2qLk5805LRA",
-          "short_id": "af1c2e33b0c7dad7"
-        },
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "type": "vless",
-      "uuid": "d318cdac-0033-4b6e-98bf-35116e79c93f"
-    },
-    {
-      "flow": "xtls-rprx-vision",
       "server": "54.254.182.69",
       "server_port": 44416,
       "tag": "vless-1011447403",
@@ -252,6 +230,28 @@
       },
       "type": "vless",
       "uuid": "956e22b4-2257-4251-a708-679e0518e374"
+    },
+    {
+      "flow": "xtls-rprx-vision",
+      "server": "46.137.202.178",
+      "server_port": 12512,
+      "tag": "vless-1014377964",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA",
+          "short_id": "e692a8250d2e2fd0"
+        },
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "type": "vless",
+      "uuid": "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
     }
   ]
 }
