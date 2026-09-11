@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "updated_at": "2026-09-10T17:00:02Z",
+  "updated_at": "2026-09-11T17:00:02Z",
   "count": 15,
   "outbounds": [
     {
       "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "13.212.76.106",
+      "server": "54.151.142.26",
       "server_port": 443,
-      "tag": "hysteria2-1169638509",
+      "tag": "hysteria2-1180048411",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "www.bing.com"
+        "server_name": "54.151.142.26"
       },
       "type": "hysteria2"
     },
@@ -29,9 +29,115 @@
     },
     {
       "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "54.151.142.26",
+      "server_port": 443,
+      "tag": "hysteria2-1046909563",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "css.rbxcdn.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "47.129.0.20",
+      "server_port": 443,
+      "tag": "hysteria2-1235887697",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.bing.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "flow": "xtls-rprx-vision",
+      "server": "54.251.9.130",
+      "server_port": 24146,
+      "tag": "vless-1225161956",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo",
+          "short_id": "7205d9079521832c"
+        },
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "type": "vless",
+      "uuid": "9d9a048b-3aea-4b3e-b106-1106bf301feb"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "13.212.76.106",
+      "server_port": 443,
+      "tag": "hysteria2-1107070563",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "13.212.76.106"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "47.129.0.20",
+      "server_port": 443,
+      "tag": "hysteria2-1098992868",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "47.129.0.20"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "47.129.0.20",
+      "server_port": 443,
+      "tag": "hysteria2-1087762019",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "47.129.0.20"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
       "server": "13.250.120.9",
       "server_port": 443,
-      "tag": "hysteria2-1169638530",
+      "tag": "hysteria2-892012196",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "speedtest.tinkoff.ru"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "47.129.0.20",
+      "server_port": 443,
+      "tag": "hysteria2-1060574012",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "google.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+      "server": "13.212.76.106",
+      "server_port": 443,
+      "tag": "hysteria2-1169638509",
       "tls": {
         "enabled": true,
         "insecure": true,
@@ -63,75 +169,9 @@
     },
     {
       "flow": "xtls-rprx-vision",
-      "server": "47.129.185.35",
-      "server_port": 49805,
-      "tag": "vless-1051696585",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "KhyeJbZtFAik5Mx1K_AQMIEK_MPwQnwUwSe-jTjq8yU",
-          "short_id": "4a753538b6a9eee9"
-        },
-        "server_name": "www.intel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "type": "vless",
-      "uuid": "0803fc94-25f9-42db-9e6b-dd1418ae50ec"
-    },
-    {
-      "flow": "xtls-rprx-vision",
-      "server": "46.137.202.178",
-      "server_port": 12512,
-      "tag": "vless-1023674378",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA",
-          "short_id": "e692a8250d2e2fd0"
-        },
-        "server_name": "www.intel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "type": "vless",
-      "uuid": "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
-    },
-    {
-      "flow": "xtls-rprx-vision",
-      "server": "54.251.9.130",
-      "server_port": 24146,
-      "tag": "vless-1016993018",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo",
-          "short_id": "7205d9079521832c"
-        },
-        "server_name": "www.intel.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "type": "vless",
-      "uuid": "9d9a048b-3aea-4b3e-b106-1106bf301feb"
-    },
-    {
-      "flow": "xtls-rprx-vision",
       "server": "54.251.224.5",
       "server_port": 26017,
-      "tag": "vless-1014348497",
+      "tag": "vless-1223752271",
       "tls": {
         "enabled": true,
         "insecure": false,
@@ -143,7 +183,7 @@
         "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       },
       "type": "vless",
@@ -172,76 +212,26 @@
       "uuid": "e3f0c894-0f76-4683-a751-6a93da8fd14d"
     },
     {
-      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "47.129.0.20",
-      "server_port": 443,
-      "tag": "hysteria2-1060574002",
+      "flow": "xtls-rprx-vision",
+      "server": "54.251.224.5",
+      "server_port": 26017,
+      "tag": "vless-1054550879",
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "server_name": "whatsapp.com"
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "cy4ePzAdSz4pqRmAXXchMIgSoSKo8qjq2qLk5805LRA",
+          "short_id": "af1c2e33b0c7dad7"
+        },
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
-      "type": "hysteria2"
-    },
-    {
-      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "13.212.76.106",
-      "server_port": 443,
-      "tag": "hysteria2-1060574023",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "google.com"
-      },
-      "type": "hysteria2"
-    },
-    {
-      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "47.129.0.20",
-      "server_port": 443,
-      "tag": "hysteria2-1087762019",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "47.129.0.20"
-      },
-      "type": "hysteria2"
-    },
-    {
-      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "47.129.0.20",
-      "server_port": 443,
-      "tag": "hysteria2-1056019916",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "t.me"
-      },
-      "type": "hysteria2"
-    },
-    {
-      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "13.212.76.106",
-      "server_port": 443,
-      "tag": "hysteria2-1103485375",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "13.212.76.106"
-      },
-      "type": "hysteria2"
-    },
-    {
-      "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
-      "server": "13.212.76.106",
-      "server_port": 443,
-      "tag": "hysteria2-1046909523",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "css.rbxcdn.com"
-      },
-      "type": "hysteria2"
+      "type": "vless",
+      "uuid": "d318cdac-0033-4b6e-98bf-35116e79c93f"
     }
   ]
 }
