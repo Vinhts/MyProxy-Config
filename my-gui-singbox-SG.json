@@ -1,0 +1,302 @@
+[
+  {
+    "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+    "server": "54.151.142.26",
+    "server_port": 443,
+    "tag": "hysteria2-1180048411",
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "54.151.142.26"
+    },
+    "type": "hysteria2"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "54.251.9.130",
+    "server_port": 24146,
+    "tag": "vless-1018151544",
+    "tls": {
+      "enabled": true,
+      "insecure": false,
+      "reality": {
+        "enabled": true,
+        "public_key": "VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo",
+        "short_id": "7205d9079521832c"
+      },
+      "server_name": "www.intel.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "vless",
+    "uuid": "9d9a048b-3aea-4b3e-b106-1106bf301feb"
+  },
+  {
+    "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+    "server": "13.250.120.9",
+    "server_port": 443,
+    "tag": "hysteria2-1103485381",
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "13.250.120.9"
+    },
+    "type": "hysteria2"
+  },
+  {
+    "password": "qQe1z5kU8kN6SlKnDt9Ru3Qp",
+    "server": "13.212.32.171",
+    "server_port": 443,
+    "tag": "hysteria2-651117976",
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "vpn-sg-001.fastervpn.world"
+    },
+    "type": "hysteria2"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "206.206.78.36",
+    "server_port": 443,
+    "tag": "vless-1257526749",
+    "tls": {
+      "enabled": true,
+      "insecure": false,
+      "reality": {
+        "enabled": true,
+        "public_key": "UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ",
+        "short_id": "133a3f10a1581047"
+      },
+      "server_name": "www.cloudflare.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "e3f0c894-0f76-4683-a751-6a93da8fd14d"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "13.229.44.152",
+    "server_port": 34033,
+    "tag": "vless-1020073542",
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "reality": {
+        "enabled": true,
+        "public_key": "R1mts7yXplVMaA15AC1U0TMnYvqiX3OPbK1_ZBan_XQ",
+        "short_id": "702186e48d5646"
+      },
+      "server_name": "www.amd.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "random"
+      }
+    },
+    "type": "vless",
+    "uuid": "b5138354-066a-4e9f-93e3-5bc700eaf89f"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "206.206.78.36",
+    "server_port": 443,
+    "tag": "vless-1255007929",
+    "tls": {
+      "enabled": true,
+      "insecure": false,
+      "reality": {
+        "enabled": true,
+        "public_key": "UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ",
+        "short_id": "133a3f10a1581047"
+      },
+      "server_name": "www.cloudflare.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "e3f0c894-0f76-4683-a751-6a93da8fd14d"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "91.192.81.214",
+    "server_port": 443,
+    "tag": "vless-1259627593",
+    "tls": {
+      "enabled": true,
+      "insecure": false,
+      "reality": {
+        "enabled": true,
+        "public_key": "bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc",
+        "short_id": "d1742269"
+      },
+      "server_name": "www.cloudflare.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "607801ac-dbdd-4938-a167-129015d9978e"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "91.192.81.214",
+    "server_port": 443,
+    "tag": "vless-1257940745",
+    "tls": {
+      "enabled": true,
+      "insecure": false,
+      "reality": {
+        "enabled": true,
+        "public_key": "bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc",
+        "short_id": "d1742269"
+      },
+      "server_name": "www.cloudflare.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "607801ac-dbdd-4938-a167-129015d9978e"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "54.251.224.5",
+    "server_port": 26017,
+    "tag": "vless-1162261096",
+    "tls": {
+      "enabled": true,
+      "insecure": false,
+      "reality": {
+        "enabled": true,
+        "public_key": "cy4ePzAdSz4pqRmAXXchMIgSoSKo8qjq2qLk5805LRA",
+        "short_id": "af1c2e33b0c7dad7"
+      },
+      "server_name": "www.amd.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "d318cdac-0033-4b6e-98bf-35116e79c93f"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "206.206.78.36",
+    "server_port": 443,
+    "tag": "vless-1259627594",
+    "tls": {
+      "enabled": true,
+      "insecure": false,
+      "reality": {
+        "enabled": true,
+        "public_key": "UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ",
+        "short_id": "133a3f10a1581047"
+      },
+      "server_name": "www.cloudflare.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "e3f0c894-0f76-4683-a751-6a93da8fd14d"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "54.251.224.5",
+    "server_port": 26017,
+    "tag": "vless-1220267307",
+    "tls": {
+      "enabled": true,
+      "insecure": false,
+      "reality": {
+        "enabled": true,
+        "public_key": "cy4ePzAdSz4pqRmAXXchMIgSoSKo8qjq2qLk5805LRA",
+        "short_id": "af1c2e33b0c7dad7"
+      },
+      "server_name": "www.amd.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "d318cdac-0033-4b6e-98bf-35116e79c93f"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "46.137.202.178",
+    "server_port": 12512,
+    "tag": "vless-1009372186",
+    "tls": {
+      "enabled": true,
+      "insecure": false,
+      "reality": {
+        "enabled": true,
+        "public_key": "sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA",
+        "short_id": "e692a8250d2e2fd0"
+      },
+      "server_name": "www.intel.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "firefox"
+      }
+    },
+    "type": "vless",
+    "uuid": "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "54.169.200.246",
+    "server_port": 41688,
+    "tag": "vless-1014378462",
+    "tls": {
+      "enabled": true,
+      "insecure": false,
+      "reality": {
+        "enabled": true,
+        "public_key": "srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk",
+        "short_id": "7f342137c20387"
+      },
+      "server_name": "www.intel.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "49c0aac1-5e05-4f04-b624-248fc59e03c4"
+  },
+  {
+    "flow": "xtls-rprx-vision",
+    "server": "206.206.78.36",
+    "server_port": 443,
+    "tag": "vless-561636598",
+    "tls": {
+      "enabled": true,
+      "insecure": false,
+      "reality": {
+        "enabled": true,
+        "public_key": "UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ",
+        "short_id": "133a3f10a1581047"
+      },
+      "server_name": "www.cloudflare.com",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "type": "vless",
+    "uuid": "e3f0c894-0f76-4683-a751-6a93da8fd14d"
+  }
+]
