@@ -1,64 +1,190 @@
 {
   "version": 1,
-  "updated_at": "2026-10-02T17:00:02Z",
+  "updated_at": "2026-10-03T17:00:02Z",
   "count": 15,
   "outbounds": [
     {
-      "password": "6ddb6a68-d5f5-ca30-3943-cf0c9876d50c",
-      "server": "c4f4c444-tmkao0-tnnrly-g43g.sg7.hyhuawei.com",
+      "password": "bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b",
+      "server": "abb12ec5-tmm5c0-tmg311-141tv.sg7.hyhuawei.com",
       "server_port": 443,
-      "tag": "hysteria2-1610668483",
+      "tag": "hysteria2-1623484118",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "c4f4c444-tmkao0-tnnrly-g43g.sg7.hyhuawei.com"
+        "server_name": "abb12ec5-tmm5c0-tmg311-141tv.sg7.hyhuawei.com"
       },
       "type": "hysteria2"
     },
     {
-      "server": "217.217.254.126",
-      "server_port": 2053,
-      "tag": "vless-1327864776",
+      "password": "4729b4c8-1790-11eb-8684-f23c913c8d2b",
+      "server": "4da82491-tmm5c0-ts40sw-14g76.sg7.hyhuawei.com",
+      "server_port": 443,
+      "tag": "hysteria2-1623652192",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "4da82491-tmm5c0-ts40sw-14g76.sg7.hyhuawei.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "c11ff50c-f582-11ee-94df-f23c9164ca5d",
+      "server": "1329b1ba-tmm5c0-u3xqxa-1q91p.sg7.hyhuawei.com",
+      "server_port": 443,
+      "tag": "hysteria2-1623484253",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "1329b1ba-tmm5c0-u3xqxa-1q91p.sg7.hyhuawei.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "19dd9c70-e4a5-11ed-8347-f23c9164ca5d",
+      "server": "691f640a-tmm5c0-tug19l-1go3q.sg7.hyhuawei.com",
+      "server_port": 443,
+      "tag": "hysteria2-1623484233",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "691f640a-tmm5c0-tug19l-1go3q.sg7.hyhuawei.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "password": "8bb68d04-6973-11ee-b518-f23c9164ca5d",
+      "server": "af0e0bfe-tmm5c0-tpv2b9-1o8ak.sg7.hyhuawei.com",
+      "server_port": 443,
+      "tag": "hysteria2-1623484220",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "af0e0bfe-tmm5c0-tpv2b9-1o8ak.sg7.hyhuawei.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "flow": "xtls-rprx-vision",
+      "server": "54.169.200.246",
+      "server_port": 41688,
+      "tag": "vless-1023674397",
       "tls": {
         "enabled": true,
         "insecure": false,
         "reality": {
           "enabled": true,
-          "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-          "short_id": "87829de0e2bb82cb"
+          "public_key": "srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk",
+          "short_id": "7f342137c20387"
         },
-        "server_name": "www.cloudflare.com",
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "type": "vless",
+      "uuid": "49c0aac1-5e05-4f04-b624-248fc59e03c4"
+    },
+    {
+      "flow": "xtls-rprx-vision",
+      "server": "149.33.30.176",
+      "server_port": 443,
+      "tag": "vless-1629328487",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "rk_iTiKEWYK02oF8lCIXrVlM7pWMSYX-Iuaz6Eat5lI",
+          "short_id": "4b26322b354bd74e"
+        },
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         }
       },
       "type": "vless",
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9"
+      "uuid": "5fffad1b-10f0-41ff-abe7-e5a92696d5ef"
     },
     {
-      "password": "f13f964e-f06c-11ec-a858-f23c91cfbbc9",
-      "server": "ca645aca-tmm5c0-tt2yf5-1j61y.sg7.hyhuawei.com",
+      "flow": "xtls-rprx-vision",
+      "server": "3.0.111.82",
+      "server_port": 12972,
+      "tag": "vless-730478143",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "reality": {
+          "enabled": true,
+          "public_key": "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0",
+          "short_id": "48050fab"
+        },
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "type": "vless",
+      "uuid": "814bd064-544d-4255-a070-5705c03f6da9"
+    },
+    {
+      "password": "40e084d6-0316-11f0-90e2-f23c913c8d2b",
+      "server": "3677ca2a-tmm5c0-u0aht1-1rz5s.sg7.hyhuawei.com",
       "server_port": 443,
-      "tag": "hysteria2-1623652229",
+      "tag": "hysteria2-1623484281",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "ca645aca-tmm5c0-tt2yf5-1j61y.sg7.hyhuawei.com"
+        "server_name": "3677ca2a-tmm5c0-u0aht1-1rz5s.sg7.hyhuawei.com"
       },
       "type": "hysteria2"
     },
     {
-      "password": "f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b",
-      "server": "3417a8da-tmm5c0-ttyjoe-ieln.sg7.hyhuawei.com",
+      "password": "94d40708-8273-11ea-8fc9-f23c913c8d2b",
+      "server": "2580fc16-tmm5c0-tn28ki-mv7m.sg7.hyhuawei.com",
       "server_port": 443,
-      "tag": "hysteria2-1623484370",
+      "tag": "hysteria2-1623652357",
       "tls": {
         "enabled": true,
         "insecure": true,
-        "server_name": "3417a8da-tmm5c0-ttyjoe-ieln.sg7.hyhuawei.com"
+        "server_name": "2580fc16-tmm5c0-tn28ki-mv7m.sg7.hyhuawei.com"
       },
       "type": "hysteria2"
+    },
+    {
+      "password": "8fa4bea0-8703-11ef-83cc-f23c913c8d2b",
+      "server": "19311971-tmm5c0-tn3jhp-1qthu.sg7.hyhuawei.com",
+      "server_port": 443,
+      "tag": "hysteria2-1623483795",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "19311971-tmm5c0-tn3jhp-1qthu.sg7.hyhuawei.com"
+      },
+      "type": "hysteria2"
+    },
+    {
+      "server": "5.223.41.125",
+      "server_port": 80,
+      "tag": "vless-1602615380",
+      "transport": {
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "3b821031-d7d4-4368-918b-15f2312dba2b"
+    },
+    {
+      "server": "5.223.41.164",
+      "server_port": 80,
+      "tag": "vless-1590136825",
+      "transport": {
+        "path": "/",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "ef24e9b9-e7b2-4e01-b335-f289612d2d7a"
     },
     {
       "server": "5.223.41.125",
@@ -72,164 +198,26 @@
       "uuid": "3b821031-d7d4-4368-918b-15f2312dba2b"
     },
     {
-      "server": "217.217.254.126",
-      "server_port": 2053,
-      "tag": "vless-1343205036",
+      "flow": "xtls-rprx-vision",
+      "server": "54.169.200.246",
+      "server_port": 41688,
+      "tag": "vless-1016993015",
       "tls": {
         "enabled": true,
         "insecure": false,
         "reality": {
           "enabled": true,
-          "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-          "short_id": "87829de0e2bb82cb"
+          "public_key": "srwIElIGTPs0kshpN1vvPsn4wixV_pLd56y_v9m0sTk",
+          "short_id": "7f342137c20387"
         },
-        "server_name": "www.cloudflare.com",
+        "server_name": "www.intel.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
       },
       "type": "vless",
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9"
-    },
-    {
-      "server": "217.217.254.126",
-      "server_port": 2053,
-      "tag": "vless-1511787919",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-          "short_id": "87829de0e2bb82cb"
-        },
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "type": "vless",
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9"
-    },
-    {
-      "server": "217.217.254.126",
-      "server_port": 2053,
-      "tag": "vless-1328145696",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-          "short_id": "87829de0e2bb82cb"
-        },
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "type": "vless",
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9"
-    },
-    {
-      "server": "217.217.254.126",
-      "server_port": 2053,
-      "tag": "vless-1328080936",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-          "short_id": "87829de0e2bb82cb"
-        },
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "type": "vless",
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9"
-    },
-    {
-      "server": "5.223.41.121",
-      "server_port": 80,
-      "tag": "vless-1592516075",
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      },
-      "type": "vless",
-      "uuid": "0f7996b1-3ef7-4274-b612-0310270d2a41"
-    },
-    {
-      "server": "5.223.41.248",
-      "server_port": 80,
-      "tag": "vless-1622157678",
-      "transport": {
-        "type": "ws"
-      },
-      "type": "vless",
-      "uuid": "2e055175-728b-44be-90a4-e7f59ed16f1b"
-    },
-    {
-      "server": "5.223.41.125",
-      "server_port": 80,
-      "tag": "vless-1602615380",
-      "transport": {
-        "type": "ws"
-      },
-      "type": "vless",
-      "uuid": "3b821031-d7d4-4368-918b-15f2312dba2b"
-    },
-    {
-      "server": "217.217.254.126",
-      "server_port": 2053,
-      "tag": "vless-1510329151",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "reality": {
-          "enabled": true,
-          "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-          "short_id": "87829de0e2bb82cb"
-        },
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "type": "vless",
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9"
-    },
-    {
-      "password": "6d56436c-150d-11f0-b0c8-f23c913c8d2b",
-      "server": "ab9eb873-tmm5c0-tpkh0c-1r7od.sg7.hyhuawei.com",
-      "server_port": 443,
-      "tag": "hysteria2-1623484342",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "ab9eb873-tmm5c0-tpkh0c-1r7od.sg7.hyhuawei.com"
-      },
-      "type": "hysteria2"
-    },
-    {
-      "password": "61c4be90-6235-11ec-a8bf-f23c91cfbbc9",
-      "server": "756c5a00-tmm5c0-tr9h64-1f1f1.sg7.hyhuawei.com",
-      "server_port": 443,
-      "tag": "hysteria2-1623484020",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "756c5a00-tmm5c0-tr9h64-1f1f1.sg7.hyhuawei.com"
-      },
-      "type": "hysteria2"
+      "uuid": "49c0aac1-5e05-4f04-b624-248fc59e03c4"
     }
   ]
 }
